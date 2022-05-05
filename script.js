@@ -4,9 +4,10 @@ let inputPassword = document.getElementById('inputPassword');
 
 buttonLoggin.addEventListener("click", verificacaoLogin);
 function verificacaoLogin() {
-  if (inputName === 'tryber@teste.com' && inputPassword === 123456) {
+  if (inputName.value === 'tryber@teste.com' && inputPassword.value === '123456') {
     alert('Olá, Tryber!');
   } else {
     alert('Email ou senha inválidos.');
   }
 }
+let variv = 0;
