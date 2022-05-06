@@ -1,7 +1,6 @@
-let btnLoggin = document.getElementById('btnLoggin');
-let userEmail = document.getElementById('userEmail');
-let userPwd = document.getElementById('userPwd');
-btnLoggin.addEventListener('click', verificacaoLogin);
+const btnLoggin = document.getElementById('btnLoggin');
+const userEmail = document.getElementById('userEmail');
+const userPwd = document.getElementById('userPwd');
 function verificacaoLogin() {
   if (userEmail.value === 'tryber@teste.com' && userPwd.value === '123456') {
     alert('Olá, Tryber!');
@@ -9,3 +8,4 @@ function verificacaoLogin() {
     alert('Email ou senha inválidos.');
   }
 }
+btnLoggin.addEventListener('click', verificacaoLogin);
