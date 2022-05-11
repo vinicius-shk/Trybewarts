@@ -10,14 +10,14 @@ function verificacaoLogin() {
     alert('Email ou senha inválidos.');
   }
 }
+//continuar requisito 18, função incompleta
 const verifyAgreed = () => {
   if (inptAgreed.checked === true) {
-    btnSend.style.display = 'block';
+    btnSend.style.display = 'flex';
   }
   btnSend.style.display = 'none';
 };
 window.onload = function () {
   btnLoggin.addEventListener('click', verificacaoLogin);
-  inptAgreed.addEventListener('click', verifyAgreed);
-  btnSend.style.display = 'none';
+  inptAgreed.addEventListener('change', verifyAgreed);
 };
