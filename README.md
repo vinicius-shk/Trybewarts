@@ -1,10 +1,29 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Trybewarts
+
+Projeto Trybewarts é uma página web que possibilita o usuário preencher um formulário para inscrição na Trybewarts, escolhendo a sua casa, família, conteúdo e avaliando o serviço com a possibilidade de deixar comentários.  
+
+Acesse [aqui](https://trybewarts-vinicius-shk.vercel.app/) uma versão com deploy realizado para testar.
+
+### Tecnologias utilizadas
+
+- **HTML**
+- **Javascript**
+- **CSS**
+
+### Para rodar localmente
+
+Clone o projeto para o seu repositório local.
+
+```
+git clone git@github.com:vinicius-shk/Trybewarts.git
+
+```
+
+Acesse a raiz do projeto e rode os comandos para instalar as dependências
+
+```
+cd Trybewarts && npm i
+
+```
+
+Inicie o Live Server para HTML
